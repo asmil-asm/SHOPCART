@@ -1,0 +1,102 @@
+.contact {
+  margin-top: 100px;
+}
+
+.contact .data {
+  padding: 1.25rem;
+}
+
+.contact .info {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .contact .info {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.contact .info div h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 600;
+  color: var(--main-color);
+  margin-bottom: 1.5rem;
+}
+
+.contact .info div .title {
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.contact .info .contecting {
+  color: #374151;
+}
+
+.contact .info .contecting > * + * {
+  margin-top: 1rem;
+}
+
+.contact .info form {
+  width: 50%;
+  background-color:#eee;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .contact .info form {
+    width: 100%;
+  }
+}
+
+.contact .info form div {
+  margin-bottom: 1.5rem;
+}
+
+.contact .info form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+
+.contact .info form input,
+.contact .info form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--main-color-hover);
+  outline: none;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+}
+
+
+
+.contact .info form button {
+  width: 100%;
+  background-color: var(--main-color);
+  color: #ffffff;
+  padding: 0.75rem 0;
+  border-radius: 0.75rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact .info form button:hover {
+  opacity: 0.9;
+}
+
+.contact .info form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+

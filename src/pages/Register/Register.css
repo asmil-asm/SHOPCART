@@ -1,0 +1,48 @@
+.register{
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width:400px;
+        margin: 50px auto;
+
+}
+.register h1{
+    margin: 5px 0;
+    color:var(--main-color)
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 20px;
+}
+form button{
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    padding:  10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    color:white;
+}
+form button:hover{
+    background-color: var(--main-color-hover);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btns{
+    border:none;
+    color:var(--main-color);
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+@media(max-width:768px){
+    .register{
+        width: 300px;
+    }
+}

@@ -1,0 +1,352 @@
+{
+
+   "welcome": "Welcome to online eCommerce store.",
+    "Shipping Information": "Shipping Information",
+    "Payment Method": "Payment Method",
+    "Review and confirm": "Review and confirm",
+    "Back": "Back",
+    "Next": "Next",
+    "Credit / Debit Card": "Credit / Debit Card",
+    "Visa, Mastercard, Amex": "Visa, Mastercard, Amex",
+    "PayPal": "PayPal",
+    "Pay securely with your PayPal account": "Pay securely with your PayPal account",
+    "Cash on Delivery": "Cash on Delivery",
+    "Pay when you receive your order": "Pay when you receive your order",
+    "Your payment information is encrypted and secure": "Your payment information is encrypted and secure",
+    "Card Number": "Card Number",
+    "Cardholder Name": "Cardholder Name",
+    "Expiry Date": "Expiry Date",
+    "CVV": "CVV",
+     "Billing Details": "Billing Details",
+    "First Name": "First Name",
+    "Enter your First name": "Enter your First name",
+    "Last Name": "Last Name",
+    "Enter your Last name": "Enter your Last name",
+    "Phone": "Phone",
+    "+1 234 567 890": "+1 234 567 890",
+    "City": "City",
+    "Your city": "Your city",
+    "Address": "Address",
+    "Street, building, apartment...": "Street, building, apartment...",
+    "Notes": "Notes",
+    "Additional notes (optional)": "Additional notes (optional)",
+    "Email": "Email",
+    "you@example.com": "you@example.com",
+    "Continue": "Continue",
+    "Review & Confirm": "Review & Confirm",
+    "Total": "Total",
+    "Confirm Order": "Confirm Order",
+    "Your order has been created successfully, order number #{{orderId}}": "Your order has been created successfully, order number #{{orderId}}",
+    "You'll be redirected to PayPal to complete your purchase securely.": "You'll be redirected to PayPal to complete your purchase securely.",
+    "Please have the exact amount ready when your order arrives.": "Please have the exact amount ready when your order arrives.",
+  
+  "language": {
+    "en": "EN",
+    "ar": "AR"
+  },
+   "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+        "Search":"Search",
+        "helpCenter":"Help Center",
+        "privacyPolicy":"Privacy Policy",
+        "shopping":"Shopping"
+
+
+  },
+  "hero": {
+    "banners": {
+      "banner1": { "text": "Introducing the new", "description": "Explore the best products" },
+      "banner2": { "text": "Latest Collection", "description": "Discover the latest trends" },
+      "banner3": { "text": "Special Offers", "description": "Don't miss our exclusive deals" }
+    },
+    "cards": {
+      "card1": "CC Camera & ACCESSORIES",
+      "card2": "New Apple Homepod Mini"
+    },
+    "shopNow": "Shop Now"
+  },
+  "footer": {
+    "description": "Your one-stop e-commerce platform for quality products and seamless shopping experience.",
+    "quickLinks": "Quick Links",
+    "customerService": "Customer Service",
+    "stayUpdated": "Stay Updated",
+    "subscribeText": "Subscribe to get latest offers",
+    "emailPlaceholder": "Enter your email",
+    "subscribeButton": "Subscribe",
+    "copyright": "© {{year}} SHOPCART. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms"
+  },
+  "filter": {
+    "title": "Filter results",
+    "reset": "Reset",
+    "category": "Category",
+    "allCategories": "All Categories",
+    "price": "Price",
+    "minimum": "Minimum",
+    "maximum": "Maximum",
+    "customerRatings": "Customer ratings",
+    "allEvaluations": "All evaluations",
+    "andAbove": "& above",
+    "offers": "Offers",
+    "recommended": "Recommended",
+    "recommendedHint": "Show discounted products only",
+    "button": "Filter"
+  },
+  "cart": {
+    "headers": {
+      "images": "Images",
+      "product": "Product",
+      "unitPrice": "Unit Price",
+      "quantity": "Quantity",
+      "total": "Total",
+      "remove": "Remove",
+   
+        "view":"View"
+
+    },
+        "checkout": "Checkout",
+
+        "shoppingCart": "Shopping Cart",
+    "couponPlaceholder": "Coupon Code",
+    "couponAria": "Coupon code",
+    "flatRate": "Flat rate ($10.00)",
+    "freeShipping": "Free shipping",
+    "localPickup": "Local pickup",
+    "totalLabel": "TOTAL",
+        "apply": "Apply",
+
+     "subtotal": "Subtotal",
+    "shipping": "Shipping",
+            "title": "Your Cart",
+
+    "removeItem": "Remove item",
+    "empty": "Your cart is empty.",
+    "product": "Product"
+  },
+  "testimonials": {
+    "items": {
+      "1": {
+        "name": "Ronald Richards",
+        "role": "Customer, USA",
+        "text": "Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna."
+      },
+      "2": {
+        "name": "Marcus Chen",
+        "role": "Customer, Canada",
+        "text": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, urna ut sollicitudin molestie, lacus quam iaculis arcu, non efficitur elit augue id tellus. Cras ultricies ligula sed magna dictum porta."
+      },
+      "3": {
+        "name": "Sophia Williams",
+        "role": "Customer, UK",
+        "text": "Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat."
+      },
+      "4": {
+        "name": "David Martinez",
+        "role": "Customer, Spain",
+        "text": "Donec rutrum congue leo eget malesuada. Proin eget tortor risus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus."
+      }
+    }
+  },
+   "categories": {
+    "title": "Categories",
+    "subtitle": "Popular Categories",
+    "empty": "No categories available"
+  },
+  "slider": {
+    "newProducts": "New Products",
+    "newProductsDesc": "Featured Product",
+    "bestSale": "Best Sale",
+    "bestSaleDesc": "Best Deals",
+    "recommended": "Recommended",
+    "recommendedDesc": "Recommended items"
+  },
+  "stats": {
+    "totalVendor": "Total Vendor",
+    "categories": "Categories",
+    "monthlyVisitors": "Monthly Visitors",
+    "productSale": "Product Sale"
+  },
+   "product": {
+    "name": "Product",
+    "addToCart": "Add To Cart",
+    "added": "Added",
+    "addToFavorite": "Add to favorites",
+        "relatedProducts": "Related products"
+
+  },
+  "features": {
+    "fastDelivery": "Fasted Delivery",
+    "fastDeliveryDesc": "Delivery in 24/H",
+    "return24": "24 Hours Return",
+    "return24Desc": "Money-back guarantee",
+    "securePayment": "Secure Payment",
+    "securePaymentDesc": "Your money is safe",
+    "support247": "Support 24/7",
+    "support247Desc": "Live contact/message"
+  },
+ "about": {
+    "badge": "Discover Us",
+    "title": "Enjoy shopping with us",
+    "titleBreak": "& get discount",
+    "subtitle": "Everything you love, delivered to your door. Seamless shopping on every screen you own.",
+    "features": [
+      "Shop across every device with a fully synchronized cart and wishlist.",
+      "Fast worldwide delivery with real-time order tracking on every package.",
+      "Exclusive member discounts, seasonal sales, and secure one-tap checkout."
+    ],
+    "shoppingNow": "Shopping Now",
+    "imageAlt1": "Online shopping icons floating above a laptop keyboard",
+    "imageAlt2": "Mini shopping cart filled with packages on a smartphone",
+    "imageAlt3": "Laptop, tablet and phones showing a synced shopping experience"
+  },
+   "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions about products, orders, or anything else? Our team is ready to help.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "name": "Name",
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending Message ..."
+  },
+  "blog": {
+    "readMore": "Read More",
+    "showLess": "Show Less",
+    "empty": "No blogs available"
+  },
+ 
+  "helpCenter": {
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers to common questions.",
+    "stillNeedHelp": "Still need help?",
+    "stillNeedHelpText": "Our support team is ready to assist you with any technology product or order questions.",
+    "callUs": "Call us",
+    "emailUs": "Email us",
+    "liveChat": "Live chat",
+    "chatHours": "Available 9am – 6pm EST",
+    "contactSupport": "Contact Support",
+    "faqs": {
+      "q1": {
+        "question": "How do I track my SHOPCART order?",
+        "answer": "Once your order ships, you will receive an email with a tracking link. You can also sign in to your account and visit the Orders section to see live tracking updates."
+      },
+      "q2": {
+        "question": "What is the return policy for technology products?",
+        "answer": "Most technology items can be returned within 30 days of delivery if they are unopened and in original condition. Some products, such as software and consumables, may not be eligible for return once opened."
+      },
+      "q3": {
+        "question": "Which payment methods do you accept?",
+        "answer": "We accept Visa, Mastercard, American Express, PayPal, Apple Pay, Google Pay, and bank transfer for eligible orders."
+      },
+      "q4": {
+        "question": "How long does delivery take?",
+        "answer": "Standard delivery takes 3-5 business days. Express delivery is available in 1-2 business days for most metropolitan areas. Remote locations may take an extra 1-2 days."
+      },
+      "q5": {
+        "question": "Do your products come with a warranty?",
+        "answer": "Yes. All electronics sold on SHOPCART include the manufacturer warranty. Many items also qualify for our extended protection plans at checkout."
+      },
+      "q6": {
+        "question": "How can I change or cancel my order?",
+        "answer": "Orders can be modified or canceled within 30 minutes of placement. After that, the order may already be processed for shipping. Contact support as soon as possible for assistance."
+      }
+    }
+  },
+
+ "home": {
+    "xiaomi11": "Xiaomi Mi 11 Ultra 12G + 256GB",
+    "xiaomiBuds": "Xiaomi FlipBuds Pro",
+    "iphonePro": "iphone Pro",
+    "iphoneDesc": "Apple M1 Max Chip. 32GB Unified Memory, 1TB SSD Storage",
+    "adsAlt": "Advertisement"
+  },
+ 
+  "privacy": {
+    "badge": "Legal & Security",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: September 2026. Learn how we handle your personal data and tech order details.",
+    "acknowledged": "You acknowledged this policy on {{date}}.",
+    "overviewTitle": "Overview",
+    "overviewText": "Your privacy is crucial to us. As an e-commerce platform for tech hardware and digital tools, we only collect and process the data necessary to fulfill your orders and support your tech products.",
+    "needHelp": "Need help? Reach out at privacy@yourtechstore.com",
+    "printPolicy": "Print Policy",
+    "acknowledge": "I Acknowledge",
+    "acknowledgedBtn": "Acknowledged",
+    "sections": {
+      "s1": {
+        "title": "1. Information We Collect",
+        "content": "We collect customer details to process tech hardware orders, manage device warranties, and deliver software licenses. This includes your name, shipping address, billing info, email, and contact number."
+      },
+      "s2": {
+        "title": "2. Technical & Device Telemetry",
+        "content": "For smart tech products, firmware downloads, and peripherals, we may collect technical hardware IDs, OS versions, and diagnostic logs to verify compatibility and support device updates."
+      },
+      "s3": {
+        "title": "3. Cookies & Local Storage",
+        "content": "We use cookies and browser storage to keep track of your active shopping cart, remember user preferences, and monitor product loading performance across devices."
+      },
+      "s4": {
+        "title": "4. Security & Encryption",
+        "content": "All store checkout actions are encrypted with TLS 1.3 standards. Payment details are handled directly by PCI-DSS compliant payment gateways, and we never store raw credit card numbers."
+      },
+      "s5": {
+        "title": "5. Contact & Privacy Requests",
+        "content": "You can request access, modifications, or permanent deletion of your profile data and past order records by emailing support@yourtechstore.com."
+      }
+    }
+  },
+ "auth": {
+    "login": "Login",
+    "register": "Register",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "back": "Back",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "loading": "Loading...",
+    "logout": "Logout"
+  },
+  "addresses": {
+    "addNew": "Add New Address",
+    "place": "Place",
+    "city": "City",
+    "address": "Address",
+    "save": "Save",
+    "close": "Close"
+  },
+  
+  "profile": {
+    "editProfile": "Edit Profile",
+    "logOut": "Log Out",
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "editPictureAria": "Edit profile picture"
+  },
+  "settings": {
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "city": "City",
+    "orderNotifications": "Order Notifications",
+    "orderNotificationsText": "Shipping and delivery updates",
+    "newsletter": "Newsletter",
+    "newsletterText": "Weekly tech deals and offers",
+    "saveChanges": "Save Changes"
+  },
+  "wishlistTab": {
+    "empty": "Your wishlist is empty."
+  }
+ 
+}

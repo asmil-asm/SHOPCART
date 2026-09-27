@@ -1,0 +1,114 @@
+.home{
+          padding: 30px/* p-5 */
+
+}
+.banners{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px
+}
+@media(max-width:1000px){
+   .banners {
+flex-direction: column;
+   } 
+}
+.banners .box{
+    background-color: #ebeeef;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+@media(max-width:1000px){
+   .banners .box{
+    width: 100%;
+   } 
+}
+.banners .box img{
+    width: 200px;
+    height: 250px;
+}
+@media(max-width:700px){
+   .banners .box img{
+    width: 150px;
+    height: 200px;
+   } 
+}
+
+.banners .box h1{
+    color: var(--main-color) ;
+}
+.banners .box button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.banners .box button:hover{
+    background-color: var(--main-color-hover);
+}
+.ads{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+.ads img{
+    width: 100%;
+}
+.recommended{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+        background-color: #000000;
+            border-radius: 10px;
+            padding: 10px;
+            border-bottom: 10px solid var(--main-color); 
+            
+
+}
+@media(max-width:768px){
+    .recommended{
+        flex-direction: column-reverse;
+        gap: 10px;
+        padding: 15px;
+    }
+    .recommended img{
+        width: 200px;
+    }
+}
+
+.recommended h1{
+    color:var(--main-color)
+}
+.recommended p{
+    color:#ebeeef;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.recommended  button{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: var(--main-color);
+    color: white;
+    border:none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.recommended  button:hover{
+    background-color: var(--main-color-hover);
+}

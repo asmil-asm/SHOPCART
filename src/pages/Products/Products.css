@@ -1,0 +1,117 @@
+
+.products-wrapper {
+  margin: 20px 0;
+}
+
+
+.products-layout {
+  width: 100%;
+}
+
+.products-content {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+    display: flex;
+  justify-content: center;   
+  align-items: center; 
+}
+
+
+.products-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  
+}
+
+
+@media (min-width: 460px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 950px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .products-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
+.products-item {
+  width: 100%;
+}
+
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+
+.products-pagination {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  width: auto;
+}
+
+.products-pagination .MuiPagination-ul {
+  justify-content: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.products-pagination .MuiPaginationItem-root {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: var(--main-color);
+  border-radius: 10px;
+  font-weight: 600;
+  min-width: 38px;
+  height: 38px;
+  transition: all 0.25s ease;
+  box-shadow: none;
+}
+
+.products-pagination .MuiPaginationItem-root:hover {
+  background-color:var(--main-color-hover);
+  border-color: var(--main-color);
+  transform: translateY(-2px);
+}
+.products-pagination .Mui-selected {
+  background-color: var(--main-color-hover) !important;
+  color: #fff !important;
+  border-color: var(--main-color-hover);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.products-pagination .Mui-selected:hover {
+  background-color: var(--main-color);
+  opacity: 0.9;
+}
+
+.products-pagination .Mui-disabled {
+  opacity: 0.35;
+}
+
+.products-pagination .MuiPaginationItem-icon {
+  font-size: 20px;
+}

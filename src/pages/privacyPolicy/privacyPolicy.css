@@ -1,0 +1,71 @@
+:root {
+  --main-color: #127fff;
+  --main-color-hover: #64748b;
+  --second-color: #0965d0;
+}
+
+.privacy-container {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.privacy-header {
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.privacy-badge {
+  background-color: rgba(18, 127, 255, 0.1);
+  color: var(--main-color);
+  border-radius: 9999px;
+  padding: 4px 12px;
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.privacy-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.privacy-accordion {
+  border-radius: 8px !important;
+  margin-bottom: 0.75rem !important;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease-in-out;
+}
+
+.privacy-accordion:hover {
+  border-color: var(--main-color);
+}
+
+.privacy-button-primary {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  padding: 10px 24px !important;
+  border-radius: 8px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.privacy-button-primary:hover {
+  background-color: var(--second-color) !important;
+}
+
+.privacy-button-secondary {
+  border-color: var(--main-color) !important;
+  color: var(--main-color) !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+}
+
+.privacy-button-secondary:hover {
+  border-color: var(--main-color-hover) !important;
+  color: var(--main-color-hover) !important;
+  background-color: rgba(100, 116, 139, 0.04) !important;
+}

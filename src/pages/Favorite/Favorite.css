@@ -1,0 +1,22 @@
+
+.box{
+  padding: 10px;
+  position: relative;
+  
+}
+.box .close{
+  position: absolute;
+  top:-8px;
+  left:0px;
+  cursor: pointer;
+  font-size: 25px;
+  color:white;
+  z-index: 100;
+  background-color: var(--main-color);
+  padding:0 5px;
+  border-radius: 50%;
+  
+}
+.box .close:hover{
+  background-color: red;
+}

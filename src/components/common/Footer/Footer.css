@@ -1,0 +1,168 @@
+/* CSS العادي المكافئ تماماً */
+
+footer {
+  color: white;
+}
+
+footer .info {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* تعادل grid-cols-1 */
+  gap: 2.5rem; /* تعادل gap-10 */
+    background-color: var(--main-color);
+
+}
+footer .info img{
+   width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  footer .info {
+    grid-template-columns: repeat(3, minmax(0, 1fr)); 
+  
+  }
+}
+@media (max-width: 600px) {
+  footer .info {
+    grid-template-columns: repeat(1, minmax(0, 1fr)); 
+  
+  }
+}
+
+
+footer .info .title h2 {
+  font-size: 1.5rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem;
+}
+
+footer .info .title p {
+  font-size: 0.875rem; /* text-sm */
+  color: #e5e7eb; /* text-gray-200 */
+  margin-top: 0.75rem; /* mt-3 */
+}
+
+footer .info .links h3 {
+  font-weight: 600; /* font-semibold */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+footer .info .links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; 
+}
+
+
+footer .info .links a {
+  color: white;
+  cursor: pointer; 
+}
+footer .info .links a:hover {
+  color: var(--color-shadow); 
+}
+
+footer .info .message {
+  display: flex;
+  flex-direction: column; 
+}
+
+footer .info .message h3 {
+  font-weight: 600;
+  margin-bottom: 1rem; 
+}
+
+footer .info .message p {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+  color: #e5e7eb;
+}
+
+footer .info .message form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; 
+}
+
+@media (min-width: 1250px) {
+  footer .info .message form {
+    flex-direction: row; 
+  }
+}
+
+footer .info .message form input {
+  padding: 0.5rem 0.75rem; 
+  border-radius: 0.75rem; 
+  max-width: 100%;
+  border-width: 1px; 
+  border-color: white; 
+  outline: none;
+  background-color: #eee;
+
+}
+
+footer .info .message form button {
+  background-color: #014d4698;
+  color: var(--color-main); 
+  padding: 0.5rem 1rem; 
+  border-radius: 0.375rem; 
+  font-weight: 600; 
+  cursor: pointer;
+  border: none;
+}
+footer .info .message form button:hover {
+  background-color:var(--second-color) ; 
+}
+
+footer .bottom-bar {
+    background-color: #0965d0;
+    padding: 0;
+
+}
+
+footer .bottom-bar .data {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1.5rem; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between; 
+  align-items: center; 
+  font-size: 0.875rem; 
+  color: #e5e7eb; 
+}
+footer .bottom-bar .links a{
+  color: #e5e7eb; /* text-gray-200 */
+}
+
+/* نقطة التوقف md */
+@media (min-width: 768px) {
+  footer .bottom-bar .data {
+    flex-direction: row; /* md:flex-row */
+  }
+}
+
+footer .bottom-bar .data .links {
+  display: flex;
+  gap: 1rem; /* تعادل space-x-4 */
+  margin-top: 0.5rem; /* mt-2 */
+}
+
+/* نقطة التوقف md */
+@media (min-width: 768px) {
+  footer .bottom-bar .data .links {
+    margin-top: 0; /* md:mt-0 */
+  }
+}
+
+footer .bottom-bar .data .links a:hover {
+  color: var(--color-shadow); /* hover:text-[var(--color-shadow)] */
+}

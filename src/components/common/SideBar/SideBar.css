@@ -1,0 +1,17 @@
+.title-sideBar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid var(--main-color);
+padding: 5px ;
+}
+.title-sideBar img{
+     width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.button-actions{
+    background-color: var(--main-color)!important;
+    color: white !important;
+    cursor:'pointer' !important;
+}

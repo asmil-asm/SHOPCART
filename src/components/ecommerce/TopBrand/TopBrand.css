@@ -1,0 +1,33 @@
+.brands{
+    margin: 50px 0;
+
+}
+.brands h1{
+    color:var(--main-color);
+    margin: 20px 0;
+    text-align: center;
+}
+.top-brand{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 10px;
+}
+.top-brand .brand{
+        background-color: #ffffff;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    transition: border-color 0.3s ease, transform 0.3s ease; 
+
+}
+.top-brand .brand:hover{
+
+    border-color: var(--main-color); 
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);}
+.top-brand .brand img{
+    width: 100px;
+    height: 100px;
+}

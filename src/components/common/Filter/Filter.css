@@ -1,0 +1,149 @@
+
+.filter-sidebar {
+  width: 100%;
+  max-width: 360px;
+  background-color: var(--main-color);
+  padding: 24px 20px;
+  color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .filter-sidebar {
+    display: none;
+  }
+}
+
+.filter-header-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-icon {
+  color: white
+}
+
+.filter-title {
+  font-weight: 700 !important;
+  font-size: 1.15rem !important;
+}
+
+.clear-btn {
+  color: var(--text-muted) !important;
+  text-transform: none !important;
+  border-radius: 8px !important;
+}
+
+.clear-btn:hover {
+  color: #fff !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.filter-divider {
+  margin: 20px 0 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Accordion Customization */
+.filter-accordion {
+  background-color: transparent !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+.filter-accordion::before {
+  display: none !important;
+}
+
+.filter-accordion-summary {
+  padding: 0 !important;
+}
+
+.accordion-title {
+  font-weight: 600 !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.expand-icon {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Controls Shared Styles */
+.filter-form-label {
+  margin: 0 !important;
+  border-radius: 8px;
+  padding: 2px 8px;
+  color: white;
+}
+
+.filter-form-label:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.filter-form-label-switch {
+  margin: 0 !important;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.custom-checkbox, .custom-radio {
+  color: white!important;
+}
+
+.custom-checkbox, .custom-radio {
+  color: white!important;
+}
+.filter-mobile .custom-checkbox.Mui-checked, .custom-radio.Mui-checked{
+  color:var(--main-color)!important;
+}
+
+.rating-stars {
+  color: #ffb74d !important;
+}
+
+.star-empty {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.price-slider {
+  color: gray !important;
+}
+
+.price-slider .MuiSlider-thumb {
+  background-color: white!important;
+}
+
+/* Custom Inputs */
+.dark-input .MuiOutlinedInput-root {
+  color: var(--second-color);
+  background-color: #EEEE;
+  border-radius: 10px;
+}
+
+.dark-input .MuiOutlinedInput-notchedOutline {
+  border-color:var(--second-color);
+}
+
+.dark-input .MuiInputLabel-root {
+  color: var(--second-color);
+}
+
+.list-filter-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background-color: var(--second-color);
+}
+
+
+@media(min-width:700px)
+{
+.filter-mobile{
+  display: none;
+}
+}
