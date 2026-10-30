@@ -5,7 +5,7 @@ import { logout, updateActivity } from "@store/Auth/LoginSlice"
 const SESSION_TIMEOUT =24 * 60 * 60 * 1000; 
 
 const api = axios.create({
-  baseURL: 'https://shopcart-back-end.onrender.com',
+  baseURL: import.meta.env.VITE_API_BASE_URL,
 });
 
 api.interceptors.request.use(
