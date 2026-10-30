@@ -15,14 +15,17 @@ const NewProducts = () => {
       dateNow.getMonth() - date.getMonth() <= 1;
     return isSameMonth;
   });
-
+const products =
+  newProducts.length >= 7
+    ? newProducts.slice(0, 7)  
+    : [...newProducts, ...records.filter(p => !newProducts.includes(p))].slice(0, 7);
   return (
     <section className="newProducts">
       {newProducts.length > 0 ? (
         <Slider
           title={t("slider.newProducts")}
           text={t("slider.newProductsDesc")}
-          products={newProducts}
+          products={products}
         />
       ):(<Waiting/>)}
     </section>

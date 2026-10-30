@@ -15,7 +15,6 @@ const Products = () => {
   const {handleReset}=useFilter()
    console.log(products)
         console.log(filter)
-  // empty filter form store
   useEffect(()=>{
 return(()=>{
 handleReset()
