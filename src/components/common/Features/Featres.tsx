@@ -51,8 +51,8 @@ function Features() {
       }}
     >
       {cards.map((card) => (
-        <Card key={card.id} sx={{ boxShadow: '0px 1px 2px 0px #b9bfc6 ' }}>
-          <CardActionArea sx={{ height: '100%' }}>
+        <Card key={card.id} sx={{ boxShadow: '0px 1px 2px 0px #b9bfc6 ' ,}}>
+          <CardActionArea sx={{ height: '100%',cursor:"auto" }}>
             <CardContent
               sx={{
                 height: '100%',
