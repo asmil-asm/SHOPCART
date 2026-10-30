@@ -1,32 +1,39 @@
-# React + TypeScript + Vite
+# 🛒 SHOPCART — Modern E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A fully-featured, scalable e-commerce frontend built with **React 19**, **TypeScript**, and **Vite**. Designed with a modular architecture, internationalization support, and a strong focus on developer experience and performance.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Product Catalog** — Browse, filter, and view product details.
+- **Shopping Cart** — Add/remove items, update quantities, and persist cart state across sessions.
+- **Multi-language Support** — Seamless RTL/LTR switching via `i18next`.
+- **Form Handling & Validation** — Complex forms with `react-hook-form`, `yup`, and `zod`.
+- **State Management** — Predictable, scalable state with `Redux Toolkit` and `redux-persist`.
+- **Responsive UI** — Built with `Material UI`, `Emotion`, and `Framer Motion` animations.
+- **Modern Routing** — Client-side routing with `React Router v7`.
+- **API Layer** — Centralized HTTP client using `Axios`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🧰 Tech Stack
+| Category | Technologies |
+|---|---|
+| **Framework** | React 19, TypeScript 6 |
+| **Build Tool** | Vite 8 |
+| **State Management** | Redux Toolkit, React-Redux, Redux-Persist |
+| **UI & Styling** | Material UI (MUI), Emotion, Framer Motion, Swiper |
+| **Routing** | React Router DOM v7 |
+| **Forms & Validation** | React Hook Form, Yup, Zod |
+| **Internationalization** | i18next, react-i18next, Language Detector |
+| **HTTP Client** | Axios |
+| **Notifications** | React Hot Toast |
+| **Linting** | Oxlint |
 
-## React Compiler
+## 🚀 Getting Started
+```bash
+# 1. Clone the repository
+git clone https://github.com/asmil-asm/SHOPCART.git
+cd SHOPCART
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 2. Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+# 3. Start the development server
+npm run dev
