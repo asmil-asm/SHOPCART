@@ -5,19 +5,19 @@ import path from 'path'
 export default defineConfig({
   resolve:{
 alias:{
-  "@assets":path.resolve(__dirname,"./src/assets"),
-    "@components":path.resolve(__dirname,"./src/components"),
-      "@pages":path.resolve(__dirname,"./src/pages"),
-  "@hooks":path.resolve(__dirname,"./src/hooks"),
-    "@layouts":path.resolve(__dirname,"./src/layouts"),
-      "@routes":path.resolve(__dirname,"./src/routes"),
-  "@store":path.resolve(__dirname,"./src/store"),
-    "@style":path.resolve(__dirname,"./src/style"),
-      "@typeCustome":path.resolve(__dirname,"./src/typeCustome"),
-            "@util":path.resolve(__dirname,"./src/util"),
-            "@vaildation":path.resolve(__dirname,'./src/vaildation'),
-                        "@services":path.resolve(__dirname,'./src/services'),
-               "@translate":path.resolve(__dirname,'./src/Translation')
+  "@assets":path.resolve(import.meta.dirname,"./src/assets"),
+    "@components":path.resolve(import.meta.dirname,"./src/components"),
+      "@pages":path.resolve(import.meta.dirname,"./src/pages"),
+  "@hooks":path.resolve(import.meta.dirname,"./src/hooks"),
+    "@layouts":path.resolve(import.meta.dirname,"./src/layouts"),
+      "@routes":path.resolve(import.meta.dirname,"./src/routes"),
+  "@store":path.resolve(import.meta.dirname,"./src/store"),
+    "@style":path.resolve(import.meta.dirname,"./src/style"),
+      "@typeCustome":path.resolve(import.meta.dirname,"./src/typeCustome"),
+            "@util":path.resolve(import.meta.dirname,"./src/util"),
+            "@vaildation":path.resolve(import.meta.dirname,'./src/vaildation'),
+                        "@services":path.resolve(import.meta.dirname,'./src/services'),
+               "@translate":path.resolve(import.meta.dirname,'./src/Translation')
 
 
 
