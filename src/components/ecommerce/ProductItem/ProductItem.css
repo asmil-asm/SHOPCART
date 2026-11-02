@@ -2,10 +2,10 @@
     width: 200px;
     margin: auto;
 }
-@media(max-width:"767px"){
-.products{
+@media (max-width:767px) {
+  .products {
     width: 150px;
-}
+  }
 }
 .products img {
   width: 200px;
